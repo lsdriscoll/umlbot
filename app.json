@@ -15,11 +15,11 @@
       "value": "production"
     },
     "BUILDPACK_URL": {
-      "value": "https://github.com/ddollar/heroku-buildpack-multi.git"
+      "value": "https://github.com/weibeld/heroku-buildpack-graphviz.git"
     },
     "GRAPHVIZ_DOT": {
       "description": "graphviz install dir. see https://github.com/weibeld/heroku-buildpack-graphviz-src/blob/master/bin/compile",
-      "value": "/app/vendor/graphviz/bin/dot"
+      "value": "/app/graphviz/bin/dot"
     }
   }
 }
